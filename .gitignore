@@ -1,0 +1,20 @@
+# Ignore dataset directories
+DATA/
+runs/
+outputs/
+__pycache__/
+
+# Ignore model files
+*.pt
+*.onnx
+*.tflite
+
+# Ignore large binary files
+*.png
+*.jpg
+*.jpeg
+
+# Keep specific important files
+!requirements.txt
+!*.py
+!dataset.yaml

@@ -1,0 +1,10 @@
+# Dataset configuration for YOLO
+
+path: C:/Users/mayur/Downloads/Task/Task/DATA/dataset_split
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: bluelabels
